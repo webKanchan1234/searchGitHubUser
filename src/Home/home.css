@@ -1,0 +1,15 @@
+.home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.home-box{
+    display: flex;
+    margin: 2vmax auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}

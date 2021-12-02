@@ -1,0 +1,46 @@
+.user{
+    display: flex;
+    float: right;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 30%;
+    margin-top: 2vmax;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.image img{
+    width: 10vmax;
+    height: 10vmax;
+    margin: 10px;
+}
+.heading{
+    text-align: center;
+}
+.follows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 153, 156);
+    border-radius: 5px;
+    margin: 1px;
+}
+.followers{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .user{
+        flex-direction: column;
+        width: 90%;
+        padding: 2vmax;
+    }
+    .image img{
+        width: 20vmax;
+        height: 15vmax;
+        
+    }
+}
